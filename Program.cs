@@ -35,7 +35,7 @@ namespace Cebolinha
             Console.Write("-Cebolinha: ");
 
             Console.ResetColor();
-            Console.Write($"{padrao.Replace("R", "L").Replace("r", "l")}");
+            Console.Write($"{padrao.Replace("R", "L").Replace("RR", "L").Replace("r", "l").Replace("rr", "l")}");
 
             Console.Beep();
         }
